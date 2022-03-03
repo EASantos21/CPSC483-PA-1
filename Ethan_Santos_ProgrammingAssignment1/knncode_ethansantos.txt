@@ -1,0 +1,36 @@
+Title: Programming Assignment 1
+Name: Ethan Santos
+Course: CPSC 483
+
+Goals of this Assignment 
+    - Implement a K-Nearest Neighbor classification algorithm from scratch
+    - Use the K-Nearest Neighbor algorithm offered by Scikit learn to compare the results
+    - Identify dependent and independent variables
+    - Split the data into train and test sets
+
+Files 
+    - knncode_ethansantos.py
+        ~ Impelments a KNN model from scratch 
+    - knncode_ethansantos.ipynb
+        ~ Understanding more about HappinessData-1.csv as well as data preprocessing 
+    - knncode_scikit.py
+        ~ Implements a KNN model 
+
+Methods
+    - I made two separate files to implement a KNN Model
+    by scratch and through the scikit library offered
+    - I used Jupyter Notebook to better understand the data 
+    as well as find what I was looking for in terms of identifying
+    variables, splitting the dataset, and getting used to preprocessing data 
+
+Results 
+    - The KNN Model from scratch yielded around:
+        ~ 50%-60% accuracy at k = 5, k = 7, k = 11
+        ~ Many of the results in accuracy weren't consistent, going all over the place
+        with some even going up to 80%
+    - The KNN Model made with Scikit yielded around:
+        ~ 75%-90% accuracy at k = 5
+        ~ 80%-90% accuracy at k = 7, k = 11
+    - Unfortunately, I was unable to implement code which could visualize
+    Error Rate vs. K Value
+    
